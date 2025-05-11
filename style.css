@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: #0078d7;
+}
+label {
+  margin-top: 10px;
+  display: block;
+}
+select, input[type="number"] {
+  padding: 10px;
+  margin-top: 5px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #005aab;
+}
+#iban-list {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+  overflow-y: auto;
+  max-height: 200px;
+}
+.iban-item {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.iban-item:last-child {
+  border-bottom: none;
+}
+.copy-btn {
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+}
+.copy-btn:hover {
+  background-color: #218838;
+}
